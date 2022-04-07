@@ -1,0 +1,182 @@
+body {
+  text-align: center;
+  background-color: #DCCDC8; /* gri renk */
+  font-family: Helvetica,san-serif;
+  display: flex;
+  flex-direction: column;
+  margin-right:5%;
+  margin-left:5%;
+}
+
+canvas{
+  width: 100%;
+  height: 10%;
+  background-color: #DCCDC8;}
+
+#ust_menu{
+  background-color: #FFC300;
+  text-align: right;
+  border: black;
+  /*margin-bottom: 5px;*/
+}
+
+#son{
+  background-color: #E4E4E4;
+  color: black;
+  font-weight: 700;
+}
+
+#main {
+  font-family: Helvetica,san-serif;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.sol{
+  background-color: #E07C3F; /*turuncu*/
+  width: 25%;
+  font-size: 15px;
+  color: #F0DED2;  /* sol tarafın yazıları*/ 
+  padding: 2%;
+}
+.ana{
+  font-size: 15px;
+  text-align:left;
+  padding-left:5%;
+  padding-right:5%;
+  background-color: #FFEFE4 ;
+}
+
+.projeler{
+  display:none;
+  background-color: #ADCDD3  ;
+  color: #742A12;  /* yazılar */ 
+  padding:2%;
+  width: 60%;
+}
+
+/* YAZI RENKLENDIRME / BOYUTLANDIRMA */
+
+img {
+  height: 7%;
+  padding: 3%;
+  border: solid;
+  border-radius: 100%;
+  border-color:yellow;
+}
+
+#gl{
+  height: 1%;
+  border-radius: 100%;
+  border-color: none;
+  border:none;
+  text-align: center;
+}
+
+h1{
+  color: #044974;
+  font-size: 50px;
+  text-shadow: 2px 2px red;
+  padding-top: 5%;
+  padding-right: 20%;
+}
+h2{
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration-line:  overline;
+  text-decoration-color: brown;
+  padding-right: 20%;
+}
+h3{
+  font-size: 20px;
+  font-weight: 600;
+  font-style:italic;
+  text-decoration-line: overline underline;
+  text-decoration-color: yellow;
+}
+h4{
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-decoration-color: #3090CC; /*mavi alt cizgi */
+}
+h5{
+  font-size: 25px;
+  font-weight: 70%;
+  text-decoration-line: overline;
+  text-decoration-color: white;
+  color: #044974 ; /*koyu mavi*/
+}
+p{
+  line-height: 0.9;
+}
+
+a{
+  line-height: 3;
+  padding-top: 0%;
+  color: #742A12;
+  display: flex;
+  flex-direction: column;
+}
+
+#kisiselBilgi{
+  text-align:left;
+  line-height: 1.2;
+  font-size: 20px;
+}
+
+#tarihler{
+  text-align:left;
+  font-size: 18px;
+  color: #4881A5;
+  padding-bottom:5%;
+}
+
+#deneyim{
+  text-align:left;
+  line-height: 1.2;
+  font-size: 20px;
+}
+
+#projeAd{
+  line-height: 1.2;
+  font-size: 20px;
+  color: #185074;
+  font-weight: 600;
+  padding-bottom:5%;
+  
+}
+#projeTip{
+  font-size: 15px;
+  text-decoration-line: overline;
+  text-decoration-color: white;
+  font-weight: 600;
+  color: #F0DED2;
+}
+#aciklama{
+  padding-left:5%;
+  text-align:left;
+  font-size: 18px;
+  color: #185074;
+  padding-bottom:1%;
+}
+
+button{
+  border: none;
+  color: white;
+  padding: 10px 10%;
+  font-weight: 700;
+  font-size: 80%;
+  cursor: pointer;  /* üstüne geldiğinde mouse modeli değişir */
+  background-color: #FFC300;
+  text-shadow: 1px 1px red;
+}
+button:active{
+  transform: translateX(5px);
+}
+button:hover{
+  background-color:white;
+  color:#185074;
+  text-shadow: 0px 1px #742A12;
+}
